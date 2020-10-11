@@ -16,9 +16,9 @@ To use a custom domain use the settings GUI in the github repo. The GUI will cre
 | Name            | Type  | TTL | Data             |
 |-----------------|-------|-----|------------------|
 | @               | A     | 1h  | 185.199.108.153  |
-|                 |       |     | 185.199.108.153  |
-|                 |       |     | 185.199.108.153  |
-|                 |       |     | 185.199.108.153  |
+|                 |       |     | 185.199.109.153  |
+|                 |       |     | 185.199.110.153  |
+|                 |       |     | 185.199.111.153  |
 | www             | CNAME | 1h  | jcdoig.github.io |
 
 Once github verifies that your domain is pointing to their server they will allow you to check the use HTTPS checkbox.
