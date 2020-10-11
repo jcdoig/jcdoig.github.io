@@ -13,6 +13,8 @@ For Basic Customization use the settings GUI in the github repo. The GUI will cr
 
 To use a custom domain use the settings GUI in the github repo. The GUI will create a CNAME file in the repository with the domain name. The change will happen immediatly, it might take up to 48h. You will need to provide the following information to your domain provider:
 
+Once github verifies that your domain is pointing to their server they will allow you to check the use HTTPS checkbox.
+
 | Name            | Type  | TTL | Data             |
 |-----------------|-------|-----|------------------|
 | @               | A     | 1h  | 185.199.108.153  |
@@ -20,5 +22,3 @@ To use a custom domain use the settings GUI in the github repo. The GUI will cre
 |                 |       |     | 185.199.110.153  |
 |                 |       |     | 185.199.111.153  |
 | www             | CNAME | 1h  | jcdoig.github.io |
-
-Once github verifies that your domain is pointing to their server they will allow you to check the use HTTPS checkbox.
